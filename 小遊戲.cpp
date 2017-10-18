@@ -3,21 +3,23 @@ using namespace std;
 int main(){
 	int a=18;
 	int n=0;
-	cout << "½Ğ¿é¤J1~20­Ó¼Æ: " << endl; 
+	cout << "è«‹è¼¸å…¥1~20å€‹æ•¸: " << endl; 
 	if (a<=20){ 
 	while (n==0){
 		cin >> a;
 		if (a==18){
-		cout << "µª¹ï¤F!!";
+		cout << "ç­”å°äº†!!";
 		n++;
-	}
+	        }
 		if (a==17 || a==19)
-		cout << "®t¤@ÂIÂIOAO" << endl;
-		else if (a<17 || a>19)
-		cout << "¦A¸Õ¸Õ¬İQQ" << endl;
+		cout << "å·®ä¸€é»é»OAO" << endl;
+		else if (a<17 || a==20)
+		cout << "å†è©¦è©¦çœ‹QQ" << endl;
+                if (a>20 || a<=0)
+                cout << "87è«‹è¼¸å…¥1åˆ°20ä»¥å…§çš„æ•¸å¥½ã„‡" << endl;
 	}
 }
     if (a>20 || a<=0)
-    cout << "87½Ğ¿é¤J1¨ì20¥H¤ºªº¼Æ¦n£v" << endl;
+    cout << "87è«‹è¼¸å…¥1åˆ°20ä»¥å…§çš„æ•¸å¥½ã„‡" << endl;
     system("pause");
 } 
