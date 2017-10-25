@@ -22,5 +22,5 @@
 	else if ( num == 7)
 	 std::cout << "Sunday" << std::endl;
 	else
-	 std::cout << "87�ÿ�J" << std::endl;
+	 std::cout << "87亂輸入欠打?" << std::endl;
  }
