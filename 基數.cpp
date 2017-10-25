@@ -7,8 +7,8 @@
  	
  	if ( num%2 == 1 ){
  		
-		 std::cout << "¬°°ò¼Æ" << std::endl; 
+		 std::cout << "æ˜¯åŸºæ•¸" << std::endl; 
 	 }
 	if ( num%2 == 0)
-	 std::cout << "¬°°¸¼Æ" << std::endl; 
+	 std::cout << "æ˜¯å¶æ•¸" << std::endl; 
  }
