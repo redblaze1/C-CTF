@@ -5,7 +5,7 @@ int main(){
     int i=0;
 	while (i<=2){
 		cin >> a;
-		if (a==12321 || a==55555 || a==45554 || a==11611)
+		if (a/10000==a%10 && a/1000%10==a/10%10)
 		cout << "YES";
 		else
 		cout << "NO";	
