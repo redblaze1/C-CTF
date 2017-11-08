@@ -1,6 +1,0 @@
-git clone https://github.com/redblaze1/C-CTF.git
-cd c-ctf //然後整理資料夾
-git add .
-git status
-git commit --allow-empty-message
-git push
