@@ -4,7 +4,7 @@ using namespace std;
 int main (){
 	int n,x;
 	double a[5]={0};
-	double sum;
+	double sum=0;
 	
 	cin >> n;
 	while (n!=-1){
