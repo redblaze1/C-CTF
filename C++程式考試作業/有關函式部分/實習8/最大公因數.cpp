@@ -2,13 +2,8 @@
 using namespace std;
 
 int gcd(int a,int b){
-    for(;a!=0,b!=0;){
-    	if (a>b)
-    	a=a%b;
-    	if (b>a)
-    	b=b%a;
-	}
-	return a;
+  if ( a==0 ) return b;
+  return gcdr ( b%a, a );
 }
 
 int main()
