@@ -12,8 +12,8 @@ int main()
 }
 
 int integerPower(int a,int b){
-	for (int c=a;b>1;b--){
-		a*=c;
+	for (;b>1;b--){
+		a*=a;
 	}
 	return a;
 }
