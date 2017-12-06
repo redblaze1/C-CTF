@@ -20,9 +20,8 @@ int main()
 bool isPerfect(int j){
 	int sum=0;
 	for(int n=j;n>0;n--){
-		if (j%n==0 && j!=n){
+		if (j%n==0 && j!=n)
 			sum+=n;
-		}	
 	}
 	if (sum==j)
 		return true;
