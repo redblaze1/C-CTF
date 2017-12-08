@@ -1,0 +1,6 @@
+
+(消除重複) 運用一維陣列解決以下問題：讀取20個數字，其值在10到100之間 (包括10和100)。每次讀入時，檢查其值是否在10到100之間，再檢查該值是否已經出現過；若沒出現過才存入陣列。讀入所有數字後，印出使用者輸入過的合法且不重複數值(依輸入的順序)。假設在「最壞狀況」下，所有20個數字都不相同。請用最小的陣列來解決這個問題。
+
+
+
+(Duplicate Elimination) Use a one-dimensional array to solve the following problem. Read in 20 numbers, each of which is between 10 and 100, inclusive. As each number is read, validate it and store it in the array only if it isn’t aduplicate of a number already read. After reading all the values, display only the unique values that the user entered in the order of input. Provide for the "worst case" in which all 20 numbers are different.

@@ -1,0 +1,4 @@
+運用一維陣列解決以下問題：輸入任意個介於0至100的數字以代表分數，依序輸出得到各等第 A(90-100) B(80-89) C(70-79) D(60-69) F(60以下) 的人數。請以警示值控制迴圈撰寫，並設警示值為-1。
+
+Use a one-dimensional array to solve the following problem. Read in any number of integers as scores, each of which is between 0 and 100, inclusive. As each number is read, determines how many of the students there are in each of the grades.
+
