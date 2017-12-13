@@ -5,7 +5,7 @@ int main(){
     int a;
     int b[5]={0};
     cin >> a;
-    for(int i=0;i!=-1;i++){
+    for(int i=0;;i++){
     if (a==-1)
     break;
     else if (a<=100 && a>=90)
