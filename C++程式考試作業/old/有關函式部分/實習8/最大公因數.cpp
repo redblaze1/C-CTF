@@ -2,8 +2,7 @@
 using namespace std;
 
 int gcd(int a,int b){
-  if ( a==0 ) return b;
-  return gcdr ( b%a, a );
+  return b?gcd(b,a%b):a;
 }
 
 int main()
