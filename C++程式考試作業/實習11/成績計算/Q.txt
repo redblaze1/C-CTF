@@ -1,0 +1,4 @@
+
+main函式已輸入某班程式設計考試成績至陣列score，請參考課本範例撰寫函式maximum, minimum, average以計算班上最高分，最低分，以及全班平均。請勿更動main函式。
+
+Write three functions maximum, minimum, average to compute and return the maximum, minimun and average of an integer array. Please do not modify the main function.

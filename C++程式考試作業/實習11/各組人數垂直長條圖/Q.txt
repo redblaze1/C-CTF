@@ -1,0 +1,7 @@
+main函式已輸入某班程式設計考試成績至陣列score，請撰寫函式vertical_barchart以統計各組距(0-9, 10-19, …,90-99, 100)人數，並依序(由左至右自分數低至高的組)印出各組人數垂直長條圖。請勿更動main函式。
+
+Write function vertical_barchart to calcute and display the histogram of the grade distribution vertically. Please do not modify the main function.
+
+
+
+輸出範例如下(長條圖前勿留空行，圖的高度為各組中最多人數)：
