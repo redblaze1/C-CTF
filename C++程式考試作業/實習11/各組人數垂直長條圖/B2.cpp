@@ -24,7 +24,7 @@ int verticalbar(int score[],int arraySize){
 	int max;
 	distribution(score,arraySize);
 	max=maxf(score,arraySize);
-	for(int x=max;x>0;x--){ //����
+	for(int x=max;x>0;x--){  //找誰在最上面,往下cout
 		for(int i=0;i<11;i++){
 			if (n[i]>=x)
 			cout << "*";
