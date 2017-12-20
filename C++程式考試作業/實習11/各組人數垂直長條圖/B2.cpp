@@ -12,12 +12,11 @@ int distribution(int score[],int arraySize){
 }
 
 int maxf(int score[],int arraySize){
-	int max=0;
+	int h=0;
 	for(int i=0;i<11;i++){
-		if(n[i]>max)
-		max=n[i];
+		h=max(h,n[i]);
 	}
-	return max;
+	return h;
 }
 
 int verticalbar(int score[],int arraySize){
