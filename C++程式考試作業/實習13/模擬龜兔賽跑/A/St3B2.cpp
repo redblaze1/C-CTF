@@ -34,11 +34,11 @@ int main(){
       printCurrentPositions( &tortoise, &hare );
       count++;
       if (tortoise==70 && hare==70)
-      cout << "¥Î¤F" << count << "¬í  " << "It's a tie!" << endl;
+      cout << "ç”¨äº†" << count << "ç§’  " << "It's a tie!" << endl;
       else if (tortoise==70)
-      cout << "¥Î¤F" << count << "¬í  " << "TORTOISE WINS!!!YAY!!!" << endl;
+      cout << "ç”¨äº†" << count << "ç§’  " << "TORTOISE WINS!!!YAY!!!" << endl;
       else if (hare==70)
-      cout << "¥Î¤F" << count << "¬í  " << "Hare wins. Yuch." << endl;
+      cout << "ç”¨äº†" << count << "ç§’  " << "Hare wins. Yuch." << endl;
    } // end loop
    
     
