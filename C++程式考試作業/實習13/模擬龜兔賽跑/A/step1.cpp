@@ -5,8 +5,8 @@ using namespace std;
 void printPath(const int);
 void printCurrentPositions( const int * const snapperPtr,
    const int * const bunnyPtr );
-   //snapper turtle ¯QÀt
-   //bunny ¨ß¤l
+   //snapper turtle Â¯QÃ€t
+   //bunny Â¨ÃŸÂ¤l
 
 const int RACE_END = 70;
 
@@ -14,8 +14,8 @@ int main(){
 
 
 
-    int tortoise=10;  //tortoise ³°Àt
-    int hare = 20;  //hare ³¥¨ß
+    int tortoise=10;  //tortoise Â³Â°Ã€t
+    int hare = 20;  //hare Â³Â¥Â¨ÃŸ
     printCurrentPositions(&tortoise, &hare);
 
     //system("PAUSE");
@@ -43,3 +43,4 @@ void printCurrentPositions( const int * const snapperPtr,
     cout<<"T"<<endl;
 
 } // end function printCurrentPositions
+//è§£æ±ºäº‚ç¢¼
