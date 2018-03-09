@@ -4,3 +4,5 @@ git add .
 git status
 git commit --allow-empty-message //如要設定信箱 例如--config email什麼的那就要先設定
 git push
+git fetch //更新
+git git merge origin/master //合併
